@@ -15,6 +15,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tap2021-e02.UnitTest", "tap2021-e02.UnitTest\tap2021-e02.UnitTest.csproj", "{E20DBEF9-B905-4EF6-9B8A-808C4982B189}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tap2021-e02.Extensions", "tap2021-e02.Extensions\tap2021-e02.Extensions.csproj", "{E8FC4594-1C05-4697-A9D2-6E0EF0D15A27}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B1DAF747-04C3-4CD9-959E-28919315661D} = {B1DAF747-04C3-4CD9-959E-28919315661D}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
