@@ -9,7 +9,10 @@ namespace tap2021_e02.Data
 
         }
 
-        public string DataSequence { get; protected set; }
+        public string DataSequence {
+        get;
+        protected set; 
+        }
 
 
 
