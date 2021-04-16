@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tap2021-e02.ConsoleApp", "tap2021-e02.ConsoleApp\tap2021-e02.ConsoleApp.csproj", "{938C94F4-0154-4ABB-9654-5470C679515E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tap2021-e02.RepositoryPattern", "tap2021-e02.RepositoryPattern\tap2021-e02.RepositoryPattern.csproj", "{A5E4474A-C683-4FAE-BDD4-B1072907396F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B1DAF747-04C3-4CD9-959E-28919315661D} = {B1DAF747-04C3-4CD9-959E-28919315661D}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tap2021-e02.Data", "tap2021-e02.Data\tap2021-e02.Data.csproj", "{B1DAF747-04C3-4CD9-959E-28919315661D}"
 EndProject
